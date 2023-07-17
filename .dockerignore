@@ -1,0 +1,41 @@
+node_modules
+
+docs
+coverage
+reports
+
+src/stories
+src/tests
+src/generated/generators
+src/generated/graphql-mocks.ts
+
+*.md
+.env.*
+.env
+# typeScript incremental compilation cache
+*.tsbuildinfo
+
+.storybook
+.husky
+.github
+
+**/*.test.tsx
+**/*.test.ts
+.package-lock.json.old
+Dockerfile
+Makefile
+docker-compose.yml
+.vscode
+playwright.config.ts
+playwright-prod.config.ts
+
+# keys
+fes.key
+fes.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+wallaby.js
